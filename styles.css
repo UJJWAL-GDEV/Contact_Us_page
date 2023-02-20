@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #29fafa;
+}
+
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    margin: 0 auto;
+    width: 75vw;
+}
+
+.container h1{
+    position: relative;
+    top: 25px;
+}
+
+.headp{
+    position: relative;
+    top: 30px;
+}
+
+.parentBox{
+    display: flex;
+    height: 60vh;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.childBox-1{
+    background-color: white;
+    color: blue;
+    height: 100%;
+    padding: 35px;
+    width: 60%;
+}
+
+.childBintro{
+    display: inline-block;
+    font-weight: bold;
+}
+
+.row{
+    margin-bottom: 15px;
+}
+
+.row p{
+    display: inline-block;
+    width: 49.5%;
+}
+
+label{
+    display: block;
+    
+    margin: 10px 0 3px 0;
+    width: 100%;
+}
+
+input{
+    border: none;
+    border-bottom: 2px solid #c0bfbf;
+    color: black;
+    outline: none;
+    padding: 5px;
+    width: 100%;
+}
+
+textarea{
+    width: 100%;
+}
+
+#send{
+    background-color: blue;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px black;
+    color: white;
+    height: 35px;
+    width: 90px;
+}
+
+#send:hover{
+    background-color: rgb(1, 1, 138);
+    cursor: pointer;
+}
+#send:active{
+    box-shadow: 8px 8px 15px black;
+}
+
+.childBox-2{
+    background-color: blue;
+    color: white;
+    height: 100%;
+    padding: 40px;
+    width: 40%;
+}
+
+table{
+    margin-top: 40px;
+}
+
+table td{
+    line-height: 22px;
+    padding: 8px;
+}
+
+
+
+

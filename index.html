@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Connect With Us</h1>
+      <p class="headp">
+        We would love to respond to your queries and help you. <br/>Feel free
+        to get in touch with us.
+      </p>
+      <div class="parentBox">
+        <div class="childBox-1">
+          <p class="childBintro">Send your request</p>
+          <form action="#">
+            <div class="row">
+              <p>
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="John Doe" />
+              </p>
+              <p>
+                <label for="phone">Phone</label>
+                <input type="number" id="phone" />
+              </p>
+            </div>
+            <div class="row">
+              <p>
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="youremail@example.com"
+                />
+              </p>
+              <p>
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                  <option value="India">India</option>
+                  <option value="USA">USA</option>
+                  <option value="Canada">Canada</option>
+                  <option value="Australia">Australia</option>
+                </select>
+              </p>
+            </div>
+            <p class="row">
+              <label for="message">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                rows="6"
+                placeholder="Please write your message here..."
+              ></textarea>
+            </p>
+            <p>
+              <input type="submit" id="send" value="SEND" />
+            </p>
+          </form>
+        </div>
+        <div class="childBox-2">
+          <p class="childBintro">Reach Us</p>
+          <table>
+            <tr>
+              <td>Email</td>
+              <td>contactus@example.com</td>
+            </tr>
+            <tr>
+              <td>Phone</td>
+              <td>+91 9217628765</td>
+            </tr>
+            <tr>
+              <td>Address</td>
+              <td>
+                #212, Ground floor, 7th cross, Some layout, Some Building,
+                Koromangala Bengaluru-560001
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
